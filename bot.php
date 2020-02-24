@@ -50,7 +50,7 @@ function send_reply_message($url, $post_header, $post_body)
     $result = curl_exec($ch);
     curl_close($ch);
 
-    return staus(200) $result;
+    return $result;
 }
 
 ?>
